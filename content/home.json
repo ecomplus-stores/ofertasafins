@@ -19,15 +19,6 @@
       "enabled": true
     },
     {
-      "type": "offers-timer",
-      "max_hours": 100000000,
-      "start": "2021-03-26T15:01:11.522Z",
-      "end": "2021-05-05T15:01:11.583Z",
-      "offers": [
-        "605dea6ca46e555927c5c28a"
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
@@ -53,6 +44,13 @@
       ]
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "title": "Baixou de preço"
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
@@ -65,15 +63,22 @@
       ]
     },
     {
-      "type": "page-title",
-      "title": "Na Ofertas Afins",
-      "description": "Você encontra as melhores marcas de sapatos, roupas, bolsas, acessórios, perfumes, produtos de beleza e decoração em promoção. Aproveite!"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "title": "Produtos em destaque"
     },
     {
       "type": "brands-carousel",
       "limit": 24,
       "offset": 0,
       "sort": null
+    },
+    {
+      "type": "page-title",
+      "title": "Na Ofertas Afins",
+      "description": "Você encontra as melhores marcas de sapatos, roupas, bolsas, acessórios, perfumes, produtos de beleza e decoração em promoção. Aproveite!"
     }
   ]
 }
