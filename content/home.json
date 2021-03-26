@@ -19,6 +19,15 @@
       "enabled": true
     },
     {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2021-03-26T15:01:11.522Z",
+      "end": "2021-03-26T15:01:11.583Z",
+      "offers": [
+        "605dea6ca46e555927c5c28a"
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
