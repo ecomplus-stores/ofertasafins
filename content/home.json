@@ -20,11 +20,10 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": "605cf431a46e555927c54404:categories:BELEZA:/beleza",
+      "shuffle": false,
       "limit": 12,
       "page": 1,
-      "title": "DESODORANTES A PARTIR DE R$15,90* "
+      "collection_id": "605df87ea46e555927c5d4ea:collections:O que outros clientes estão vendo:/o-que-outros-clientes-estao-vendo"
     },
     {
       "type": "banners-grid",
