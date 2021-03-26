@@ -9,7 +9,7 @@
         {
           "start": "2021-03-26T12:02:16.267Z",
           "end": "2029-03-26T12:02:00.000Z",
-          "img": "/img/uploads/13501733120309087781.jpeg",
+          "img": "/img/uploads/11bb0087dd336___destaque_desk_1170x400.gif",
           "mobile_img": "/img/uploads/11bb0087dd336___destaque_desk_1170x400.gif"
         }
       ]
@@ -44,11 +44,6 @@
       ]
     },
     {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
-    },
-    {
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
@@ -58,6 +53,11 @@
           "img": "/img/uploads/1130382957252271763.jpeg"
         }
       ]
+    },
+    {
+      "type": "page-title",
+      "title": "Loja demo da E-Com Plus",
+      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
     }
   ]
 }
