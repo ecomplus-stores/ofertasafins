@@ -7,7 +7,7 @@
     "custom": "_"
   },
   "bg_color": "#ffffff",
-  "logo": "/img/uploads/logo.png",
+  "logo": "/img/uploads/oa.png",
   "name": "Promoção de Sapatos, Roupas, Bolsas e Mais",
   "short_name": "Ofertas Afins",
   "lang": "pt_br",
@@ -16,7 +16,7 @@
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
   "secondary_color": "#393e46",
-  "icon": "/img/icon.png",
+  "icon": "/img/uploads/oa.png",
   "store_id": 1239,
   "description": "Na Ofertas Afins você encontra as melhores marcas de sapatos, roupas, bolsas, acessórios, perfumes, produtos de beleza e decoração em promoção. Aproveite!",
   "large_icon": "/img/large-icon.png"
