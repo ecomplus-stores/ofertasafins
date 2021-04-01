@@ -8,8 +8,8 @@
   },
   "bg_color": "#ffffff",
   "logo": "/img/uploads/ofertas-afins-logo.png",
-  "name": "Ofertas Afins ",
-  "short_name": "Promoção de Sapatos, Roupas, Bolsas e Mais",
+  "name": "Ofertas Afins - tudo, a toda hora, em qualquer lugar :)",
+  "short_name": "tudo, a toda hora, em qualquer lugar :)",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -18,6 +18,6 @@
   "secondary_color": "#393e46",
   "icon": "/img/uploads/ofertas.png",
   "store_id": 1239,
-  "description": "Na Ofertas Afins você encontra as melhores marcas de sapatos, roupas, bolsas, acessórios, perfumes, produtos de beleza e decoração em promoção. Aproveite!",
+  "description": "Preço baixo e as melhores ofertas de smartphones, notebooks, tablets, roupas, desodorantes, calçados e mais na Ofertas Afins. Aproveite!",
   "large_icon": "/img/uploads/ofertas.png"
 }
