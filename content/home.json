@@ -29,17 +29,12 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/2aad066dcb2e5__251x300-3.gif",
-          "mobile_img": ""
+          "img": "/img/uploads/halfbanner-produtos-femininos.jpeg",
+          "mobile_img": "/img/uploads/halfbanner-produtos-femininos.jpeg"
         },
         {
-          "img": "/img/uploads/36f63578d8d22__251x300-4.jpeg"
-        },
-        {
-          "img": "/img/uploads/206d4344656fa__251x300-1.gif"
-        },
-        {
-          "img": "/img/uploads/298d46f46b781__251x300-2.gif"
+          "img": "/img/uploads/halfbanner-produtos-masculinos.jpeg",
+          "mobile_img": "/img/uploads/halfbanner-produtos-masculinos.jpeg"
         }
       ]
     },
@@ -74,11 +69,6 @@
       "limit": 24,
       "offset": 0,
       "sort": null
-    },
-    {
-      "type": "page-title",
-      "title": "Na Ofertas Afins",
-      "description": "Você encontra as melhores marcas de sapatos, roupas, bolsas, acessórios, perfumes, produtos de beleza e decoração em promoção. Aproveite!"
     }
   ]
 }
