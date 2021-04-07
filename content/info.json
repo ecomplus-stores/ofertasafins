@@ -1,7 +1,7 @@
 {
   "shipping": {
     "show": true,
-    "text": "ENTREGA GARANTIDA PARA TODO BRASIL"
+    "text": "ENTREGA PARA TODO BRASIL"
   },
   "installments": {
     "show": true,
@@ -9,10 +9,10 @@
   },
   "exchange": {
     "show": true,
-    "text": "APROVEITE PRODUTOS COM FRETE REDUZIDO"
+    "text": "PRODUTOS COM FRETE REDUZIDO"
   },
   "promo": {
     "show": true,
-    "text": "PROMOÇÕES AO LONGO DO ANO"
+    "text": "PROMOÇÕES O ANO TODO"
   }
 }
