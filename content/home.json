@@ -40,7 +40,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
       "title": "Baixou de preço",
@@ -60,10 +60,11 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
-      "title": "Produtos em destaque"
+      "title": "Produtos em destaque",
+      "collection_id": "606629a93c48b468b9aebac6:brands:Adidas:/adidas"
     },
     {
       "type": "brands-carousel",
