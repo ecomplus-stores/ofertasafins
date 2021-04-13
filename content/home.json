@@ -20,7 +20,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
       "collection_id": "605df87ea46e555927c5d4ea:collections:O que outros clientes estão vendo:/o-que-outros-clientes-estao-vendo"
