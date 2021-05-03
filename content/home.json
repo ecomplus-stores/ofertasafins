@@ -72,6 +72,15 @@
       "limit": 24,
       "offset": 0,
       "sort": null
+    },
+    {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2021-05-03T22:45:49.543Z",
+      "end": "2021-06-03T22:45:01.320Z",
+      "offers": [
+        "60789db571f42b0eaf753979"
+      ]
     }
   ]
 }
