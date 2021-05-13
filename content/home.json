@@ -20,19 +20,6 @@
       "enabled": true
     },
     {
-      "type": "offers-timer",
-      "max_hours": 6,
-      "start": "2021-05-03T22:45:49.543Z",
-      "end": "2021-07-01T22:45:01.320Z",
-      "offers": [
-        "6075efec71f42b0eaf72f08c",
-        "6075dfbe71f42b0eaf72e2ec",
-        "6075c65d71f42b0eaf72c74b",
-        "6075b46c71f42b0eaf72b7f5"
-      ],
-      "notes": "CORRA ANTES QUE ACABE"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
