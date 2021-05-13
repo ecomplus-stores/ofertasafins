@@ -72,6 +72,15 @@
       "limit": 24,
       "offset": 0,
       "sort": null
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "605cf375a46e555927c542f5:categories:MASCULINO:/masculino",
+      "sort": "views",
+      "title": "Produtos Masculinos em Destaque"
     }
   ]
 }
