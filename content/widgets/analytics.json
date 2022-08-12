@@ -4,7 +4,8 @@
   "desktopOnly": false,
   "enableCheckout": true,
   "options": {
-    "gaTrackingId": "G-TTT503WD9Z"
+    "gaTrackingId": "G-TTT503WD9Z",
+    "googleAdsId": ""
   },
   "headAppend": "src/append/head"
 }

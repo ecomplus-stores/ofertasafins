@@ -4,6 +4,10 @@
   "desktopOnly": false,
   "options": {
     "buyText": "",
-    "buy": ""
+    "buy": "",
+    "strHasQuantitySelector": "_",
+    "strHasPromotionTimer": "_",
+    "lowQuantityToWarn": 12,
+    "maxVariationOptionsBtns": 6
   }
 }
