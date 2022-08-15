@@ -12,7 +12,10 @@ const networksWithColors = [
 ]
 
 // start grouping categories by parent slug
-const categoryParents = _.lodash.groupBy(_.categories, ({ parent }) => {
+const allCategories = menu.alphabetical_order
+  ? _.lodash.sortBy(_.categories, ['name'])
+  : _.categories
+const categoryParents = _.lodash.groupBy(allCategories, ({ parent }) => {
   return !parent || !parent.slug ? '_' : parent.slug
 })
 const getSubmenuId = slug => `a-${slug.replace(/\//g, '_')}`
@@ -42,7 +45,7 @@ if (mainCategories) {
       onclick="toggleSidenav()"
       aria-label="Toggle Side Navigation"
     >
-      <i class="fas fa-times"></i>
+      <i class="i-times"></i>
     </button>
 
     <% for (const slug in categoryParents) { %>
@@ -80,12 +83,12 @@ if (mainCategories) {
                 aria-controls="<%= submenuId %>"
               <% } %>
             >
-              <i class="fas fa-arrow-left"></i>
+              <i class="i-arrow-left"></i>
             </button>
           <% } %>
 
           <div class="menu__list">
-            <% categoryParents[slug].forEach(subcategory => { %>
+            <% categoryParents[slug].forEach((subcategory, index) => { %>
               <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
               <a
                 <% if (hasSubmenu) {
@@ -105,8 +108,10 @@ if (mainCategories) {
                 <% if (subcategory.icon) { %>
                   <span class="menu__item-icon">
                     <img
-                      src="<%= subcategory.icon.url %>"
+                      data-src="<%= subcategory.icon.url %>"
                       alt="<%= subcategory.icon.alt || subcategory.name %>"
+                      class="lozad"
+                      data-preload="<%= (index * 200) %>"
                     >
                   </span>
                 <% } %>
@@ -138,7 +143,7 @@ if (mainCategories) {
             class="whatsapp-link"
             data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>"
           >
-            <i class="fab fa-whatsapp mr-1"></i>
+            <i class="i-whatsapp mr-1"></i>
             <%= contacts.whatsapp %>
           </a>
         <% } else if (contacts.phone) { %>
@@ -147,7 +152,7 @@ if (mainCategories) {
             target="_blank"
             rel="noopener"
           >
-            <i class="fas fa-phone mr-1"></i>
+            <i class="i-phone mr-1"></i>
             <%= contacts.phone %>
           </a>
         <% } %>
@@ -165,7 +170,7 @@ if (mainCategories) {
               aria-label="<%= network %>"
               style="color: <%= color %>"
             >
-              <i class="fab fa-<%= network %>"></i>
+              <i class="i-<%= network %>"></i>
             </a>
           <% } %>
         <% }) %>
@@ -173,3 +178,4 @@ if (mainCategories) {
     <% } %>
   </footer>
 </aside>
+  
